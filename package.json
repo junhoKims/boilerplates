@@ -1,0 +1,16 @@
+{
+  "name": "@junhokims/boilerplates",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gather of Boilerplates",
+  "author": {
+    "name": "junhokims",
+    "email": "kraksin12@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/junhoKims/boilerplates.git"
+  },
+  "license": "MIT",
+  "keywords": ["boilerplate"]
+}
