@@ -1,6 +1,10 @@
 # ESLint React Boilerplate
 
-react와 prettier, typescript를 베이스로 쓴다고 가정, 사용하는 plugin과 config, 몇몇 rule 세팅
+react와 prettier, typescript를 베이스로 쓴다고 가정, 사용하는 plugin과 config, 몇몇 rule 세팅<br/>
+
+- Full Setting ([링크](https://github.com/junhoKims/boilerplates/blob/main/packages/eslint-react/samples/eslint-base.cjs))
+- Use import plugin Setting ([링크](https://github.com/junhoKims/boilerplates/blob/main/packages/eslint-react/samples/eslint-with-import.cjs))
+- Use unused-import plugin Setting ([링크](https://github.com/junhoKims/boilerplates/blob/main/packages/eslint-react/samples/eslint-with-unused-improt.cjs))
 
 **설치**
 ```
