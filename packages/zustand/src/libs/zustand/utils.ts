@@ -12,7 +12,7 @@ import type {
  * 개발 환경에 따라 devtools middleware를 적용
  *
  * @example
- * export const useStore = createActions<Store>(set => ({
+ * export const useStore = create<Store>(set => ({
  *   bears: 0,
  * }));
  */
