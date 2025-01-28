@@ -1,0 +1,20 @@
+{
+  "name": "boilerplates",
+  "version": "1.0.0",
+  "description": "some boilerplates",
+  "author": "junhoKims",
+  "scripts": {
+    "clean": "rm -rf node_modules && pnpm -r exec rm -rf node_modules && pnpm -r exec rm -rf .next && pnpm store prune && pnpm install"
+  },
+  "packageManager": "pnpm@9.14.4",
+  "engines": {
+    "node": ">=20"
+  },
+  "volta": {
+    "node": "20.14.0",
+    "pnpm": "9.14.4"
+  },
+  "devDependencies": {
+    "typescript": "5.7.3"
+  }
+}
