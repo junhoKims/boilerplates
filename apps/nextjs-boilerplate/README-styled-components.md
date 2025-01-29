@@ -100,3 +100,8 @@ Nextjs에서 styled component 셋업
       );
     }
     ```
+
+## 참고
+
+   - [Nextjs styled-components](https://nextjs.org/docs/app/building-your-application/styling/css-in-js#styled-components)
+   - [github example](https://github.com/vercel/next.js/blob/canary/examples/with-styled-components/README.md)
