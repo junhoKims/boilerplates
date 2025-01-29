@@ -27,6 +27,7 @@
     "allowJs": true,
     "jsx": "preserve",
     "noEmit": true,
+    "types": ["node", "react", "react-dom","vitest/globals"],
     "paths": {
       "@/*": [
         "./src/*"

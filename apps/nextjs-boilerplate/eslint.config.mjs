@@ -28,6 +28,9 @@ const eslintConfig = [
   ...tseslint.config({
     files: ['**/*.{ts,tsx,d.cts,d.ts,d.mts}'],
     extends: [tseslint.configs.recommendedTypeChecked, tseslint.configs.stylisticTypeChecked],
+    rules: {
+      '@typescript-eslint/no-explicit-any': 'off',
+    },
   }),
   ...compat.config({
     extends: ['plugin:import/recommended'],
