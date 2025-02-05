@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "prepare": "panda codegen",
+    "dev": "rm -rf .next && next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -16,6 +17,7 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@pandacss/dev": "0.52.0",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",

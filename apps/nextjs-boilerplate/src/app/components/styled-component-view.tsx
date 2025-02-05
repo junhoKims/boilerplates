@@ -2,10 +2,10 @@
 
 import styled from 'styled-components';
 
-export const View = () => {
+export const StyledComponentView = () => {
   return (
     <div>
-      <Title>View</Title>
+      <Title>StyledComponentView</Title>
     </div>
   );
 };
